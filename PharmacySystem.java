@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-// ==========================================
 // 1. LINKED LIST - For Pharmacy Inventory
-// ==========================================
+
 class MedicineNode {
     String name;
     double price;
@@ -50,9 +49,8 @@ class InventoryLinkedList {
     }
 }
 
-// ==========================================
 // 2. BINARY SEARCH TREE (BST) - For Fast Search
-// ==========================================
+
 class TreeNode {
     String medicineName;
     TreeNode left, right;
@@ -98,9 +96,8 @@ class SearchBST {
     }
 }
 
-// ==========================================
 // 3. QUEUE - For Customer Billing Queue
-// ==========================================
+
 class CustomerNode {
     String name;
     CustomerNode next;
@@ -157,9 +154,8 @@ class CustomerQueue {
     }
 }
 
-// ==========================================
 // MAIN SYSTEM CLASS WITH MENU
-// ==========================================
+
 public class PharmacySystem {
     public static void main(String[] args) {
         InventoryLinkedList inventory = new InventoryLinkedList();
